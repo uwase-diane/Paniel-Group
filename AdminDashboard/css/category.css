@@ -1,0 +1,33 @@
+.btn-category
+{
+    background: #BF1D2E;
+    border-radius: 24px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    width: 30%;
+    font-size: 0.8rem;
+    padding: 7px;
+    margin: 20px;
+  
+    
+}
+
+.text-center .btn-category:hover
+{
+    background-color: #BF1D2E;
+}
+
+
+.modal-body label
+{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-body input::placeholder
+{
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    color:  #BFBFBF;
+}
