@@ -363,6 +363,7 @@ form .card-body
 .md-form 
 {
     font-size: 0.8rem;
+    padding-top:10px;
 }
 
 input::placeholder{
