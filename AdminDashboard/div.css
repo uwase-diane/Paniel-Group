@@ -1,0 +1,14 @@
+.under {
+    width: 400px;
+    height: 150px;
+    background-color: #3C77D4;
+  }
+  
+  .over{
+    background-color: #0E49AC;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 0 23px;
+    margin-top: -80px;
+  }
