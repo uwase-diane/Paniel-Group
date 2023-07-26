@@ -769,4 +769,60 @@ ul
         
     }
 }
- 
+
+.form-check-label, .text-dark 
+{
+    font-size: 13px;
+}
+
+h2 .accordion-header
+{
+    font-size: 10px;
+}
+
+.form-check-input
+{
+    background-color: #000;
+}
+
+.price 
+{
+    font-size: 13px;
+    
+}
+
+s
+{
+    text-decoration: line-through;
+}
+
+.price h5
+{
+    font-size: 16px;
+}
+
+/* Custom checkbox style */
+.custom-checkbox {
+    /* Hide the default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* Use custom styles for the checkbox */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555; /* Border color */
+    border-radius: 4px;
+    background-color: #fff; /* Unchecked background color */
+  }
+  
+  /* Custom checkbox style when checked */
+  .custom-checkbox:checked {
+    background-color: #BF1D2E; /* Checked background color */
+    border-color: #BF1D2E; /* Checked border color */
+  }
+  
+  /* Custom checkbox style when checkbox is active (when clicked) */
+  .custom-checkbox:active {
+    border-color: #BF1D2E;; /* Active state border color */
+  }
+  

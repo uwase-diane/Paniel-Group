@@ -13,6 +13,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bevan&family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+      rel="stylesheet"
+    />
 </head>
 <body>
     <!--First Navbar-->
@@ -104,7 +118,7 @@
              </div>
         
            
-          <div class="container">
+          <!-- <div class="container">
             <div class="container-products">
             <div class="row row-cols-2 row-cols-md-6">
               <div class="col"><div style="width: 8rem;">
@@ -163,7 +177,309 @@
      
            
         </div>
-          </div>
+          </div> -->
+          <section class="">
+            <div class="container">
+              <div class="row">
+                <!-- sidebar -->
+                <div class="col-lg-3">
+                  <!-- Toggle button -->
+                  <button
+                          class="btn btn-outline-secondary mb-3 w-100 d-lg-none"
+                          type="button"
+                          data-mdb-toggle="collapse"
+                          data-mdb-target="#navbarSupportedContent"
+                          aria-controls="navbarSupportedContent"
+                          aria-expanded="false"
+                          aria-label="Toggle navigation"
+                          >
+                    <span>Show filter</span>
+                  </button>
+                  <!-- Collapsible wrapper -->
+                  <div class="collapse card d-lg-block mb-5" id="navbarSupportedContent">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button
+                                  class="accordion-button text-dark bg-light"
+                                  type="button"
+                                  data-mdb-toggle="collapse"
+                                  data-mdb-target="#panelsStayOpen-collapseOne"
+                                  aria-expanded="true"
+                                  aria-controls="panelsStayOpen-collapseOne"
+                                  >
+                            Related items
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                          <div class="accordion-body">
+                            <ul class="list-unstyled">
+                              <li><a href="#" class="text-dark">Chicken </a></li>
+                              <li><a href="#" class="text-dark">Goat </a></li>
+                              <li><a href="#" class="text-dark">Meat </a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button
+                                  class="accordion-button text-dark bg-light"
+                                  type="button"
+                                  data-mdb-toggle="collapse"
+                                  data-mdb-target="#panelsStayOpen-collapseTwo"
+                                  aria-expanded="true"
+                                  aria-controls="panelsStayOpen-collapseTwo"
+                                  >
+                            Brands
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo">
+                          <div class="accordion-body">
+                            <div>
+                              <!-- Checked checkbox -->
+                              <div class="form-check">
+                                <input class="custom-checkbox" data-onstyle="danger" type="checkbox" value="" id="flexCheckChecked1" checked />
+                                <!-- <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off" /> -->
+                                <!-- <input type="checkbox"  data-toggle="switchbutton"  checked data-width="100" data-onstyle="success" /> -->
+                                <!-- <input type="checkbox" class="custom-checkbox"> -->
+                                <label class="form-check-label" for="flexCheckChecked1">Goat</label>
+
+                                <!-- <span class="badge badge-secondary float-end">120</span> -->
+                                
+                              </div>
+                              <div class="form-check">
+                                <input class="custom-checkbox" data-onstyle="danger" type="checkbox" value="" id="flexCheckChecked1" checked />
+                                <!-- <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off" /> -->
+                                <!-- <input type="checkbox"  data-toggle="switchbutton"  checked data-width="100" data-onstyle="success" /> -->
+                                <label class="form-check-label" for="flexCheckChecked1">Meat</label>
+
+                                <!-- <span class="badge badge-secondary float-end">120</span> -->
+                                
+                              </div>
+                              <div class="form-check">
+                                <input class="custom-checkbox" data-onstyle="danger" type="checkbox" value="" id="flexCheckChecked1" checked />
+                                <!-- <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off" /> -->
+                                <!-- <input type="checkbox"  data-toggle="switchbutton"  checked data-width="100" data-onstyle="success" /> -->
+                                <label class="form-check-label" for="flexCheckChecked1">Sausages</label>
+
+                                <!-- <span class="badge badge-secondary float-end">120</span> -->
+                                
+                              </div>
+                          
+                            </div>
+                          </div>
+                        </div>
+                      </div>                      
+                      <div class="accordion-item">
+                        
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingThree">
+                          <div class="accordion-body">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- sidebar -->
+                <!-- content -->
+                <div class="col-lg-9">
+                  <header class="d-sm-flex align-items-center border-bottom mb-4 pb-3">
+                    <!-- <strong class="d-block py-2">32 Items found </strong> -->
+                    <div class="ms-auto">
+                      <select class="form-select  d-inline-block w-auto border pt-1">
+                        <option value="0">Best match</option>
+                        <option value="1">Recommended</option>
+                        <option value="2">High rated</option>
+                        <option value="3">Randomly</option>
+                      </select>
+                      <div class="btn-group shadow-0 border">
+                        <a href="#" class="btn btn-light" title="List view">
+                          <i class="fa fa-bars fa-lg"></i>
+                        </a>
+                        <a href="#" class="btn btn-light active" title="Grid view">
+                          <i class="fa fa-th fa-lg"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </header>
+          
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="price">
+                            <div class="d-flex flex-row">
+                              <h5 class="mb-1 me-2">3000 rwf</h5>
+                              <span class="text-danger"><s>5000 rwf</s></span>
+                  </div>
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                           
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                     
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                       
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                         
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                          
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                          
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                            
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                      <div class=" w-100 my-2">
+                        <img src="https://res.cloudinary.com/auca/image/upload/v1675023093/7_oosp67.png">
+                        <div class=" d-flex flex-column">
+                          <div class="d-flex flex-row">
+                            <h5 class="mb-1 me-1">3000 rwf</h5>
+                        
+                          </div>
+                         
+                          <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
+                            <button type="button"class="btns btn-outline-secondary">Add to cart</button>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <hr />
+          
+                  <!-- Pagination -->
+                  <nav aria-label="Page navigation example" class="d-flex justify-content-center mt-3">
+                    <ul class="pagination">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                          <span aria-hidden="true">&laquo;</span>
+                        </a>
+                      </li>
+                      <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">4</a></li>
+                      <li class="page-item"><a class="page-link" href="#">5</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <!-- Pagination -->
+                </div>
+              </div>
+            </div>            
+          </section>
         
        <div class="con">
         <div class="footer2">
