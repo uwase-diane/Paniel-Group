@@ -190,6 +190,11 @@ i{
     padding-top: -40px;
 }
 
+.product-img img
+{
+    width: 10%;
+}
+
 .product_co
 {
     color: rgba(191, 29, 46, 1);
@@ -199,7 +204,64 @@ i{
 {
     padding-top: 30px;
 }
-.container .btns
+.add-to-cart-btn .btns
+{
+    width: 70%;
+    padding: 3px;
+    background-color: #fff;
+    font-size: 0.9rem;
+    border: 1.59223px solid #000000;
+    border-radius: 20px;
+    
+}
+.add-to-cart-btn .btns:hover
+{
+    background-color: rgba(191, 29, 46, 1);
+    color: #fff;
+    border: none;
+}
+
+.add-to-cart-btn
+{
+    text-align: center;
+}
+
+.form-check-input[type="radio"]:checked {
+    color: #BF1D2E !important; /* Primary color */
+}
+
+/* Update the color of the <li> element using !important */
+.custom-list-item {
+    color: #BF1D2E !important; /* Primary color */
+}
+
+.list-categories a:hover
+{
+    color: #BF1D2E;
+}
+
+.image
+{
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F5F5F5;
+    border-radius: 21.4753px;
+    padding: 20px;
+}
+
+.col 
+{
+    padding: 5px;
+}
+
+.container .btn-secondary:hover
+{
+    background-color: rgba(191, 29, 46, 1);
+    color: #fff;
+}
+.container .btn
 {
     background: #F1F1F1;
     border-radius: 24px;
@@ -210,16 +272,6 @@ i{
     font-size: 0.8rem;
     padding: 10px;
     
-}
-.col 
-{
-    padding: 5px;
-}
-
-.container .btn-secondary:hover
-{
-    background-color: rgba(191, 29, 46, 1);
-    color: #fff;
 }
 
 h6{
@@ -274,22 +326,9 @@ h6{
     
 }
 
-.container-products .btns
-{
-    width: 100%;
-    padding: 3px;
-    background-color: #fff;
-    font-size: 0.9rem;
-    border: 1.59223px solid #000000;
-    border-radius: 20px;
-}
 
-.container-products .btns:hover
-{
-    background-color: rgba(191, 29, 46, 1);
-    color: #fff;
-    border: none;
-}
+
+
 
 .second-row
 {
@@ -312,6 +351,8 @@ h6{
     border-right: 1px solid #BF1D2E;
     left: 30%;
 }
+
+
 /* New Product  */
 
 .container .card
@@ -390,6 +431,14 @@ input::placeholder{
     background-color: #fff;
     padding: 10px;
     border-radius: 10px;
+    
+}
+
+.card-text
+{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666666;
     
 }
 
@@ -788,7 +837,7 @@ h2 .accordion-header
 .price 
 {
     font-size: 13px;
-    
+    padding-top: 5px;
 }
 
 s
@@ -826,3 +875,38 @@ s
     border-color: #BF1D2E;; /* Active state border color */
   }
   
+
+  /* NEW PAGE CSS */
+
+.woocommerce-result-count {
+    
+   
+}
+
+.woocommerce-result-count {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.woocommerce-products-header__title{
+    font-family: Poppins,Arial, Helvetica, sans-serif;
+    text-transform: inherit;
+    font-weight: 600;
+    font-style: normal;
+    color: #333333;
+    font-size: 20px;
+    font-display: swap;
+}
+
+.list-categories a
+{
+    font-size: 14px;
+    color: #000;
+    padding: 5px;
+
+}
